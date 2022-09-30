@@ -29,7 +29,11 @@ if (x == 6)
 {
      Console.WriteLine("Суббота");
 }
-    if (x == 7)
+if (x == 7)
 {
     Console.WriteLine("Воскресенье");
+}
+else
+{
+    Console.WriteLine("Не сегодня!");
 }
