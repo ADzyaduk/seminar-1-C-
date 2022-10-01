@@ -5,7 +5,7 @@ int x = int.Parse(Console.ReadLine()!);
 int y = -x;
 while(y <= x)
 {
-Console.Write(y);
+Console.Write($"{y} ");
 y = y+1; 
 }
 
